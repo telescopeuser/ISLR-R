@@ -1,3 +1,7 @@
+getwd()
+setwd("/home/iss-user/Desktop/workshop/git/ISLR-R")
+getwd()
+
 # Chapter 2 Lab: Introduction to R
 
 # Basic Commands
@@ -106,7 +110,7 @@ hist(mpg,col=2,breaks=15)
 pairs(Auto)
 pairs(~ mpg + displacement + horsepower + weight + acceleration, Auto)
 plot(horsepower,mpg)
-identify(horsepower,mpg,name)
+#identify(horsepower,mpg,name)
 summary(Auto)
 summary(mpg)
 
